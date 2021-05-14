@@ -15,11 +15,11 @@
 
 通过将上述得分归一化后相乘作为句子选择的标准。在选择错误选项即干扰词时首先使用**WordNet**选择同义词，再根据两个标准进行筛选：选择在语法和搭配上得分较高的干扰词；选择与目标单词在语义上“足够远”的干扰词。算法的整体流程如下。
 
-![]()
+![](https://github.com/0809zheng/Cloze-Tests-Automatic-Generation/blob/main/images/pipeline.png)
 
 一个简单的**GUI**展示如下。当输入单词**regularly**时，会自动生成该单词的完形填空问题。
 
-![]()
+![](https://github.com/0809zheng/Cloze-Tests-Automatic-Generation/blob/main/images/gui.png)
 
 ### 2. 调试环境
 
